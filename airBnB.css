@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header-frame{
+  margin: 30px 70px;
+  height:50px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo{
+  height:50px;
+}
+.nav-bar{
+  height:fit-content;
+  font-family: Arial, Helvetica, sans-serif; 
+}
+ul{
+  list-style: none;
+  display: flex;
+  gap: 35px;
+  position: relative;left: 200px;
+}
+li a{
+  text-decoration: none;
+  color: black;
+  font-size: medium;
+}
+.connect{
+  background-color: purple;
+  border: 0px purple;
+  border-radius: 10px;
+  padding: 15px 30px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  margin-left: auto;
+  cursor: default;
+}
+.connect a{
+  text-decoration: none;
+  color: white;
+}
