@@ -3,12 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+:root{
+  --purple-1: #A02279;
+  --purple-2: #900b66;
+}
+
 .header-frame{
   margin: 30px 70px;
   height:50px;
-  display:flex;
+  display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom:70px;
 }
 .logo{
   height:50px;
@@ -29,7 +35,8 @@ li a{
   font-size: medium;
 }
 .connect{
-  background-color: purple;
+background-image: linear-gradient(to right, var(--purple-1), var(--purple-2));
+
   border: 0px purple;
   border-radius: 10px;
   padding: 15px 30px;
@@ -43,3 +50,55 @@ li a{
   text-decoration: none;
   color: white;
 }
+.welcome-ad-frame{
+  width:100%;
+  display: flex;
+  height: 510px;
+  align-items: center;
+  border: 1px solid black;
+}
+.welcome-ad-text-frame{
+  padding: 0px 20px 0px 70px;
+  
+}
+.welcome-ad-img-frame{
+  padding: 10px;
+  margin-left: auto;
+  width: 50%;
+}
+.welcome-img-1, .welcome-img-3{
+  position: relative;
+  left: 375px;
+  height:176px;
+  width: 234px;
+}
+.welcome-img-2, .welcome-img-4{
+  position: relative;
+  right:100px;
+  top: 80px;
+  width: 234px;
+  height: 176px;
+}
+.welcome-txt{
+  font-size: 53px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  height: 148px;
+  width: 646px;
+  font-weight: bold;
+  
+}
+.welcome-news{
+  font-size: 23px;
+  font-weight: 400;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: 35px;
+  color: #434343;
+}
+
+.purple-highlight{
+  color: var(--purple-1);
+}
+.search-bar{
+  
+}
+
