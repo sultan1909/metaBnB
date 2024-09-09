@@ -321,8 +321,7 @@ flex-direction: row;
   display: flex;
   gap: 15px;
   position: relative;
-  top: 120px;
-  right: 172px;
+  top: 110px;right: 172px;
 
 }
 .fb, .ig, .twitter{
@@ -330,22 +329,27 @@ flex-direction: row;
   height:25px ;
   padding: 5px;
 }
-.footer-menu-frame{
-  display: grid;
-  grid-template-columns: repeat(5, 1fr) ;
-  grid-template-columns: repeat(3, 1fr);
+.copy-right{
   width: fit-content;
+  height: fit-content;
+  position: relative;
+  top: 160px;right: 260px;
+}
+.footer-menu-frame{
+  display:flex;
+  width:600px;
   height:120px;
   text-align: center;
   justify-content: center;
   border: 1px solid white;
-  position: relative;
   gap: 100px;
   
 }
-.foot-menu-h{
-  padding:2px;
+.footer-menu-header{
+  padding:5px;
   font-size: 13px;
+  width:200px;
+  border: 1px solid  white;
   font-family: Arial, Helvetica, sans-serif;
 }
 
