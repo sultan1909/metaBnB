@@ -81,7 +81,7 @@ background-image: linear-gradient(to right, var(--purple-1), var(--purple-2));
 .menu-bar ul{
   display: flex;
   list-style: none;
-  gap: 100px;
+  gap: 80px;
   font-size: 19px;
   /* justify-content: center; */
   align-items: center;
